@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: nginx
-          image: mavrickdocker/gitops
+          image: mavrickdocker/gitops:v1
           ports:
             - containerPort: 80
